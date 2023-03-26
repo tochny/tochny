@@ -1,9 +1,10 @@
 ### Welcome to my GitHub! I'm Alex!
 
-- Working as a Backend Developer / Solutions Architect
+- Working as a Security Engineer / Solutions Architect
+- Frontend development (Vue, React)
 - Backend development (Typescript, NodeJS, ExpressJS)
-- Cloud technologies (AWS, Azure)
-- Serverless backend and container applications
+- Cloud technologies (AWS, Azure, GCP)
+- Serverless and container applications
 
 [![Linkedin](https://img.shields.io/badge/Linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexchih/)
 [![Email](https://img.shields.io/badge/Email-0077B5?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alex@yunn.tw)
