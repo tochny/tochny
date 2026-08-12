@@ -161,7 +161,7 @@ const MARKS = [
   ['Microsoft Certified Trainer', '2026', 'ko'],
   ['Azure Solutions Architect Expert', '2022', 'su'],
   ['AWS Security – Specialty', '2023', 'ru'],
-  ['CCSK v4 · Cloud Security Alliance', '2022', 'ko'],
+  ['Cybersecurity Architect Expert', '2023', 'ko'],
 ];
 
 // The hex is read from the active token set, not hardcoded: dark paints the

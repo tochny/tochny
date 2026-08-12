@@ -64,8 +64,8 @@ text{font-family:Manrope,Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",
 <text x="626" y="184" class="fg" font-size="10.5">AWS Security – Specialty</text>
 <text x="856" y="184" text-anchor="end" class="ft m" font-size="8.5">2023</text>
 <rect x="614" y="202" width="3" height="10" rx="1.5" class="ko"/>
-<text x="626" y="210" class="fg" font-size="10.5">CCSK v4 · Cloud Security Alliance</text>
-<text x="856" y="210" text-anchor="end" class="ft m" font-size="8.5">2022</text>
+<text x="626" y="210" class="fg" font-size="10.5">Cybersecurity Architect Expert</text>
+<text x="856" y="210" text-anchor="end" class="ft m" font-size="8.5">2023</text>
 <rect x="34" y="290" width="832" height="1" fill="rgba(28,25,20,0.09)"/>
 
 <text x="34" y="322" class="m ko" font-size="8.5" letter-spacing="1.7">DESIGN SYSTEM · SHADCN REGISTRY</text>
