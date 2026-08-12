@@ -72,7 +72,7 @@ text{font-family:Manrope,Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",
 <text x="34" y="356" class="fg" font-size="25" font-weight="600" letter-spacing="-0.4">washiveil</text>
 <text x="34" y="381" class="bd" font-size="12">Warm washi paper, translucent veils, three lights — with first-class Chinese &amp; Japanese typography.</text>
 <text x="866" y="356" text-anchor="end" class="m ft" font-size="8.5" letter-spacing="1.1">58 ITEMS · TAILWIND V4 · WCAG 2.2 AA</text>
-<text x="866" y="381" text-anchor="end" class="m ru" font-size="8.5" letter-spacing="1.1" font-weight="600">THIS CARD IS RENDERED IN IT</text>
+<text x="866" y="381" text-anchor="end" class="m ru" font-size="8.5" letter-spacing="1.1" font-weight="600">washiveil.alexchih.com</text>
 <rect x="34" y="404" width="166" height="42" rx="11" fill="rgba(31,32,26,0.85)" stroke="rgba(255,255,255,0.15)"/>
 <circle cx="55" cy="425" r="8" class="ru"/>
 <text x="72" y="421" class="fg" font-size="10.5" font-weight="600">ruri</text>
@@ -104,6 +104,6 @@ text{font-family:Manrope,Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",
 
 <rect x="34" y="700" width="832" height="1.5" rx=".75" fill="rgba(255,255,255,0.09)"/>
 <rect x="34" y="700" width="196" height="1.5" rx=".75" class="ru"/>
-<text x="34" y="724" class="m ft" font-size="8.5" letter-spacing="1.1">HAND-AUTHORED SVG · TWO TOKEN LAYERS · NO THIRD-PARTY SERVICES</text>
+<text x="34" y="724" class="m ft" font-size="8.5" letter-spacing="1.1">GITHUB.COM/TOCHNY</text>
 <text x="866" y="724" text-anchor="end" class="m ft" font-size="8.5" letter-spacing="1.1">658 CONTRIBUTIONS · LAST 12 MONTHS</text>
 </svg>

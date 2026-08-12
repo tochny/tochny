@@ -213,7 +213,7 @@ const zoneWashiveil = (t) => `
 <text x="${PAD}" y="356" class="fg" font-size="25" font-weight="600" letter-spacing="-0.4">washiveil</text>
 <text x="${PAD}" y="381" class="bd" font-size="12">Warm washi paper, translucent veils, three lights — with first-class Chinese &amp; Japanese typography.</text>
 <text x="${RIGHT}" y="356" text-anchor="end" class="m ft" font-size="8.5" letter-spacing="1.1">58 ITEMS · TAILWIND V4 · WCAG 2.2 AA</text>
-<text x="${RIGHT}" y="381" text-anchor="end" class="m ru" font-size="8.5" letter-spacing="1.1" font-weight="600">THIS CARD IS RENDERED IN IT</text>
+<text x="${RIGHT}" y="381" text-anchor="end" class="m ru" font-size="8.5" letter-spacing="1.1" font-weight="600">washiveil.alexchih.com</text>
 ${TRICOLOR.map(([name, ja, key, tone], i) => {
   const x = PAD + i * 178;
   return `${veil(x, 404, 166, 42, t, 11)}
@@ -233,11 +233,11 @@ ${TALKS.map(([venue, title, tone], i) => {
 ${i < TALKS.length - 1 ? rule(y + 14, t) : ''}`;
 }).join('\n')}`;
 
-/** Provenance and the live contribution count. */
+/** The live contribution count. */
 const zoneFooter = (t, contributions) => `
 <rect x="${PAD}" y="700" width="${W - PAD * 2}" height="1.5" rx=".75" fill="${t.hair}"/>
 <rect x="${PAD}" y="700" width="196" height="1.5" rx=".75" class="ru"/>
-<text x="${PAD}" y="724" class="m ft" font-size="8.5" letter-spacing="1.1">HAND-AUTHORED SVG · TWO TOKEN LAYERS · NO THIRD-PARTY SERVICES</text>
+<text x="${PAD}" y="724" class="m ft" font-size="8.5" letter-spacing="1.1">GITHUB.COM/TOCHNY</text>
 <text x="${RIGHT}" y="724" text-anchor="end" class="m ft" font-size="8.5" letter-spacing="1.1">${esc(contributions)} CONTRIBUTIONS · LAST 12 MONTHS</text>`;
 
 // ---------------------------------------------------------------- card

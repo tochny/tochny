@@ -28,11 +28,10 @@ English, and I built the eCloudture eLearning platform.
 - **Working with** — AWS, Azure, Kubernetes, GitOps, Terraform, AWS CDK
 - **Open for** — talks, training, and workshops · [hi@alexchih.com](mailto:hi@alexchih.com)
 
-**[washiveil](https://github.com/tochny/washiveil)** is the current side project — a
-shadcn component registry built on a warm washi ground, three ambient lights, and
-Chinese/Japanese typography treated as a first-class concern rather than a fallback.
-The card above is rendered in it: one hand-authored SVG, two token layers, light and
-dark, no third-party badge services.
+**[washiveil](https://github.com/tochny/washiveil)** is the side project I'm on now —
+a shadcn registry for Chinese and Japanese interfaces, where the CJK font stack and
+line breaking drive the type scale instead of being bolted on afterwards. The card
+above is drawn in it.
 
 <sub>Older repos here are archived experiments from 2021–2024 — CloudFormation
 templates, CDK constructs, an Arduino-on-PIC implementation. Kept for the record,
