@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="208" viewBox="0 0 900 208" role="img" aria-labelledby="t d">
+<title id="t">washiveil — a shadcn registry with first-class Chinese &amp; Japanese typography</title>
+<desc id="d">Warm washi paper, translucent veils, three lights. 58 registry items, Tailwind CSS v4, WCAG 2.2 AA.</desc>
+<defs>
+<clipPath id="clip"><rect width="900" height="208" rx="20"/></clipPath>
+<radialGradient id="l0"><stop offset="0" stop-color="#82b4f0" stop-opacity="1"/><stop offset="0.35" stop-color="#82b4f0" stop-opacity="0.72"/><stop offset="0.6" stop-color="#82b4f0" stop-opacity="0.36"/><stop offset="0.8" stop-color="#82b4f0" stop-opacity="0.12"/><stop offset="1" stop-color="#82b4f0" stop-opacity="0"/></radialGradient>
+<radialGradient id="l1"><stop offset="0" stop-color="#a99bea" stop-opacity="1"/><stop offset="0.35" stop-color="#a99bea" stop-opacity="0.72"/><stop offset="0.6" stop-color="#a99bea" stop-opacity="0.36"/><stop offset="0.8" stop-color="#a99bea" stop-opacity="0.12"/><stop offset="1" stop-color="#a99bea" stop-opacity="0"/></radialGradient>
+<radialGradient id="l2"><stop offset="0" stop-color="#f2a36b" stop-opacity="1"/><stop offset="0.35" stop-color="#f2a36b" stop-opacity="0.72"/><stop offset="0.6" stop-color="#f2a36b" stop-opacity="0.36"/><stop offset="0.8" stop-color="#f2a36b" stop-opacity="0.12"/><stop offset="1" stop-color="#f2a36b" stop-opacity="0"/></radialGradient>
+<filter id="grain" x="0" y="0" width="100%" height="100%">
+<feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+<feColorMatrix type="saturate" values="0"/>
+</filter>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="900" height="208" fill="#12130f"/>
+<ellipse class="lt lt0" cx="-40.0" cy="-20.8" rx="330" ry="176.8" fill="url(#l0)" opacity="0.4"/>
+<ellipse class="lt lt1" cx="940.0" cy="79.0" rx="280" ry="162.2" fill="url(#l1)" opacity="0.36"/>
+<ellipse class="lt lt2" cx="10.0" cy="233.0" rx="300" ry="149.8" fill="url(#l2)" opacity="0.24"/>
+<rect width="900" height="208" filter="url(#grain)" opacity="0.15" style="mix-blend-mode:soft-light"/>
+</g>
+<rect x=".5" y=".5" width="899" height="207" rx="20" fill="none" stroke="rgba(255,255,255,0.15)"/>
+<style>
+text{font-family:Manrope,Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"PingFang TC","Hiragino Sans","Noto Sans TC","Noto Sans JP","Microsoft JhengHei",sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+.fg{fill:#e9e5dc}.bd{fill:#b5afa2}.ft{fill:#a8a193}
+.ru{fill:#82b4f0}.ko{fill:#f2a36b}.su{fill:#a99bea}
+.lt{animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-direction:alternate}
+.lt0{animation-name:d0;animation-duration:31s}
+.lt1{animation-name:d1;animation-duration:37s}
+.lt2{animation-name:d2;animation-duration:43s}
+@keyframes d0{from{transform:translate(0,0)}to{transform:translate(26px,14px)}}
+@keyframes d1{from{transform:translate(0,0)}to{transform:translate(-22px,-18px)}}
+@keyframes d2{from{transform:translate(0,0)}to{transform:translate(18px,-16px)}}
+@media (prefers-reduced-motion:reduce){.lt{animation:none}.pulse{animation:none}}
+</style>
+<text x="34" y="42" class="m ko" font-size="8.5" letter-spacing="1.7">DESIGN SYSTEM · SHADCN REGISTRY</text>
+<text x="34" y="78" class="fg" font-size="25" font-weight="600" letter-spacing="-0.4">washiveil</text>
+<text x="34" y="104" class="bd" font-size="12">Warm washi paper, translucent veils, three lights — with first-class Chinese &amp; Japanese typography.</text>
+<rect x="34" y="132" width="166" height="42" rx="11" fill="rgba(31,32,26,0.85)" stroke="rgba(255,255,255,0.15)"/>
+<circle cx="55" cy="153" r="8" class="ru"/>
+<text x="72" y="149" class="fg" font-size="10.5" font-weight="600">ruri</text>
+<text x="72" y="163" class="ft m" font-size="8">#2e63b8 · 瑠璃</text>
+<rect x="212" y="132" width="166" height="42" rx="11" fill="rgba(31,32,26,0.85)" stroke="rgba(255,255,255,0.15)"/>
+<circle cx="233" cy="153" r="8" class="ko"/>
+<text x="250" y="149" class="fg" font-size="10.5" font-weight="600">korozen</text>
+<text x="250" y="163" class="ft m" font-size="8">#d0722e · 黄櫨染</text>
+<rect x="390" y="132" width="166" height="42" rx="11" fill="rgba(31,32,26,0.85)" stroke="rgba(255,255,255,0.15)"/>
+<circle cx="411" cy="153" r="8" class="su"/>
+<text x="428" y="149" class="fg" font-size="10.5" font-weight="600">sumire</text>
+<text x="428" y="163" class="ft m" font-size="8">#7b68c8 · 菫</text>
+<text x="866" y="78" text-anchor="end" class="ft" font-size="13">↗</text>
+<text x="866" y="104" text-anchor="end" class="m ft" font-size="8" letter-spacing="1.1">58 ITEMS · TAILWIND V4 · WCAG 2.2 AA</text>
+<text x="866" y="160" text-anchor="end" class="m ru" font-size="9" font-weight="600">THIS PROFILE IS RENDERED IN IT</text>
+</svg>

@@ -1,0 +1,41 @@
+name: Refresh profile SVGs
+
+# The hero carries a live contribution count, so the assets are rebuilt daily
+# rather than hand-edited. Everything else in them is static content.
+on:
+  schedule:
+    - cron: '17 21 * * *' # 05:17 Asia/Taipei
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ['scripts/**']
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Build SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-svg.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet -- assets; then
+            echo 'No change.'
+          else
+            git add assets
+            git commit -m 'chore: refresh profile SVGs'
+            git push
+          fi
