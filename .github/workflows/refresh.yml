@@ -30,8 +30,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # Authored as Alex, not the bot, so the daily refresh lands on the
+          # contribution graph. Must be the GitHub noreply address — GitHub only
+          # attributes a commit to an account when the email is one it has
+          # verified for that account.
+          git config user.name 'Alex Chih'
+          git config user.email '51793524+tochny@users.noreply.github.com'
           if git diff --quiet -- assets; then
             echo 'No change.'
           else
